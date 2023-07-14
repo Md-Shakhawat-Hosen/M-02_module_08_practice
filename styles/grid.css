@@ -1,0 +1,19 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,100px) 50px 50px;
+    gap: 20px;
+
+}
+.box{
+ background-color: aqua;
+}
+#box-1{
+  grid-row: 1 / -1;
+}
+#box-11{
+    grid-column: 2/ -1;
+}
+#box-12{
+    grid-column: 2 / -1;
+}
